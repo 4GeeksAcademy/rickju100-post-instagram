@@ -1,0 +1,95 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 75;
+  }
+  
+
+body{
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.main{
+
+    background-color: aliceblue;
+    width: 400px;
+    height: 600px;
+    margin: 50px auto ;
+    display: grid;
+    
+}
+/*Here goes the header*/
+.header{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.html5{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    margin-left: 5px;
+}
+.html5  i {
+    font-size: 25px;
+}
+
+.text-inside{ /*se crea el div y colocan en columna*/
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    
+}
+.text-inside >*{ /*Se utiliza esto, para que edite todos los elementos dentro del div y se quitan los margenes que tienes por default los h2*/
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    
+}
+
+
+.ellipsis-vert{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.ellipsis-vert i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+
+/*Here goes the body*/
+.post-image{
+    overflow:hidden
+}
+
+/*Here goes the footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 0  10px;
+}
+
+b{
+    font-weight: 600;
+}
+
+.main-emojis{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+    
+}
